@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
+//import Profile from './components/Profile/Profile';
+import Dialogs from './components/Dialogs/Dialogs';
 
 
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-        </p>
-      </header>
       <Header />
       <Navbar />
-      <Profile />
+      <div className="app-wrapper-content">
+          {/*<Profile />*/}
+          <Dialogs />
+      </div>
     </div>
   );
 }
