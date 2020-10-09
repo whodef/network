@@ -2,7 +2,11 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <p>Test</p>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">News Feed</a>
+            <a href="#">Messages</a>
+        </div>
     );
 }
 
